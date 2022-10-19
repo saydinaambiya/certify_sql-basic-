@@ -1,0 +1,1 @@
+SELECT student.roll_number, student.name FROM student_information student, faculty_information faculty WHERE student.advisor=faculty.employee_id AND (faculty.gender='M' AND faculty.salary>15000 OR faculty.gender='F' AND faculty.salary>20000);
